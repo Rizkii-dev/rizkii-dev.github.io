@@ -1,0 +1,116 @@
+\documentclass[10.5pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.62in,top=0.5in,bottom=0.45in]{geometry}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\setlength{\parskip}{1pt}
+\linespread{0.92}
+
+% ---------- Section formatting (simple, single rule, no color/graphics) ----------
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{3pt}
+
+\setlist[itemize]{leftmargin=16pt, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\pagestyle{empty}
+
+% ---------- Helper: entry heading (Title -- Org, Location + Date on next line) ----------
+\newcommand{\cvheading}[3]{%
+  \noindent\textbf{#1}\\
+  \textit{#2}\hfill\textit{#3}\par
+}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{center}
+  {\Large\textbf{Muhammad Rizki Pratama}}\\[1pt]
+  Full Stack Engineer \& Software Engineer\\[1pt]
+  Bandung, West Java, Indonesia \; | \;
+  \href{mailto:m.rizkip.developer@gmail.com}{m.rizkip.developer@gmail.com} \; | \; +62 821-2868-8889 \\
+  \href{https://www.linkedin.com/in/muhammad-rizki-pratama-151161213/}{linkedin.com/in/muhammad-rizki-pratama} \; | \;
+  \href{https://github.com/Rizkii-dev}{github.com/Rizkii-dev}
+\end{center}
+\vspace{-6pt}
+
+% ================= SUMMARY =================
+\section*{Summary}
+Computer Science student at BINUS University with hands-on experience across full-stack web development (React, Laravel), Android application development (Kotlin), and coursework spanning computational biology and cloud security (Google Cloud). Delivered a commissioned, award-winning Android accessibility application and a production API during a professional internship. Strong problem-solving foundation demonstrated through multiple national science olympiad medals and active competitive programming practice.
+
+% ================= EDUCATION =================
+\section*{Education}
+
+\cvheading{BINUS University --- B.S. in Computer Science}{Bandung, West Java, Indonesia}{Expected 2028}
+\begin{itemize}
+  \item Relevant Coursework: Data Structures \& Algorithms, Web-Based Programming (Laravel), Computational Biology, Software Engineering, Cloud Security (Google Cloud Skills Path)
+\end{itemize}
+
+\cvheading{SMA IT Insan Sejahtera --- Science (IPA) Concentration}{Sumedang, West Java, Indonesia}{2021 -- 2024}
+\begin{itemize}
+  \item GPA: 94/100
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section*{Experience}
+
+\cvheading{Back-End Engineer Intern}{PT Eduka Teknologi Indonesia, Bandung, West Java}{Jan 2024 -- Apr 2024}
+\begin{itemize}
+  \item Developed a custom REST API for the company's internal Eduka System.
+  \item Presented the API design and implementation to the engineering team.
+\end{itemize}
+
+\cvheading{Kader (Cadre)}{MT Al-Khawarizmi (BINUS Student Organization), Bandung}{2024 -- Present}
+\begin{itemize}
+  \item Support the organization as a cadre, helping plan and organize events for a student community focused on Islamic values and technology.
+\end{itemize}
+
+% ================= PROJECTS =================
+\section*{Projects}
+
+\cvheading{Flow --- Android Accessibility App (Kotlin)}{Commissioned Project}{May 2023 -- Jun 2023}
+\begin{itemize}
+  \item Built a native Android application with structured phonological-awareness exercises to help children with dyslexia (word blindness) improve reading and literacy skills.
+  \item Delivered the project on commission for a university team; tested with a real child and awarded 1st place in a collegiate competition.
+\end{itemize}
+
+\cvheading{Pathsnap --- Travel Planning Web App (React, TypeScript)}{Personal Project}{In Progress}
+\begin{itemize}
+  \item Developing an interactive travel-planning application featuring destination discovery with filtering, detailed destination guides, and a multi-stop trip planner with live map-based route visualization.
+  \item Built with React, TypeScript, Vite, and Tailwind CSS.
+\end{itemize}
+
+\cvheading{CekDini --- AI Self-Diagnosis Health App (Figma Prototype)}{Healtech UI/UX Design Challenge 2025 (HIMATIF / ITSK RS dr. Soepraoen Malang)}{Oct 2025}
+\begin{itemize}
+  \item Designed an AI-guided self-diagnosis concept that generates a printable diagnostic report for users to bring to a doctor, giving healthcare providers a diagnostic head start.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section*{Technical Skills}
+\textbf{Languages:} Java, Kotlin, Python, JavaScript, TypeScript, C++, C, HTML/CSS \\
+\textbf{Frameworks \& Libraries:} React, Laravel, Tailwind CSS \\
+\textbf{Cloud \& Tools:} Google Cloud Platform, Git/GitHub, Android Studio, Docker, Visual Studio Code
+
+% ================= CERTIFICATIONS & ACHIEVEMENTS =================
+\section*{Certifications \& Achievements}
+\begin{itemize}
+  \item Google Cloud Computing Foundations Certificate
+  \item Oracle Dev Gym --- Class Perfection Award, Perfect Score (Jan 2026)
+  \item The Genius Math League 2026 --- Qualified to Regional Offline Round (from 2,500+ nationwide participants), representing BINUS University
+  \item OSN-K (National Science Olympiad), Informatics --- 1st Place, 2022 \& 2023
+  \item FKIP UISU Science Competition (FUSC) --- National Gold Medal, Technology \& Information, 2022
+  \item Indonesian Science Competition (ISC) --- National Gold Medal, Technology \& Information, 2022
+  \item Olimpiade Sains Seluruh Indonesia (OSSI) --- National Gold Medal, Technology \& Information, 2022
+  \item Saintech Science Competition --- National Gold Medal, Computer Science, 2022
+  \item National Olympiad of Outstanding Student (NOOS) --- Silver Medal, Informatics, 2023
+  \item Thailand International Mathematical Olympiad (TIMO) --- Bronze Medal, Mathematics, 2021
+  \item International Kangaroo Mathematics Contest (IKMC) --- Bronze Medal, Mathematics, 2023
+\end{itemize}
+
+\end{document}
